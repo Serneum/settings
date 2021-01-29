@@ -49,9 +49,6 @@ case $HIST_STAMPS in
   *) alias history='fc -l 1' ;;
 esac
 
-export NVM_DIR=~/.nvm
-source ~/.nvm/nvm.sh
-
 setopt append_history
 setopt extended_history
 setopt hist_expire_dups_first
